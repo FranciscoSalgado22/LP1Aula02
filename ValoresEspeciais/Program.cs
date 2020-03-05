@@ -38,6 +38,9 @@ namespace ValoresEspeciais
             double d = double.MaxValue; 
             Console.WriteLine((d + 1));
 
+            float f1 , f2 ;
+            f1 = f2 = 10000.0f;
+            Console.WriteLine(f1 == f2 + 0.0001f); 
         }
     }
 }
