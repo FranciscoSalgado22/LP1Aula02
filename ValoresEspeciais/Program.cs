@@ -8,24 +8,15 @@ namespace ValoresEspeciais
         static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            short nsmax = short.MaxValue;
-            short nsmin = short.MinValue;
-            ushort nusmax = ushort.MaxValue;
-            ushort nusmin = ushort.MinValue;
-            int nmax = Int32.MaxValue;
-            int nmin = Int32.MinValue;
-            uint unmax = uint.MaxValue;
-            uint unmin = uint.MinValue;
-            long nlmax = long.MaxValue;
-            long nlmin = long.MinValue;
-            ulong unlmax = ulong.MaxValue;
-            ulong unlmin = ulong.MinValue;
-            double dmax = double.MaxValue;
-            double dmin = double.MinValue;
-            float fmax = float.MaxValue;
-            float fmin = float.MinValue;
-            byte bmax = byte.MaxValue;
-            byte bmin = byte.MinValue;
+            short nsmax = short.MaxValue, nsmin = short.MinValue;
+            ushort nusmax = ushort.MaxValue, nusmin = ushort.MinValue;
+            int nmax = Int32.MaxValue, nmin = Int32.MinValue;
+            uint unmax = uint.MaxValue, unmin = uint.MinValue;
+            long nlmax = long.MaxValue, nlmin = long.MinValue;
+            ulong unlmax = ulong.MaxValue, unlmin = ulong.MinValue;
+            double dmax = double.MaxValue, dmin = double.MinValue;
+            float fmax = float.MaxValue,  fmin = float.MinValue;
+            byte bmax = byte.MaxValue, bmin = byte.MinValue;
             Console.WriteLine("short min val: " + nsmin + " short max val: " + nsmax);
             Console.WriteLine("ushort min val: " + nusmin + " ushort max val: " + nusmax);
             Console.WriteLine("int min val: " + nmin + " int max val: " + nmax);
@@ -37,6 +28,10 @@ namespace ValoresEspeciais
             Console.WriteLine("infinito float: " + float.PositiveInfinity + " infinito negativo float: " + float.NegativeInfinity);
             Console.WriteLine("infinito double: " + double.PositiveInfinity + " infinito negativo double: " + double.NegativeInfinity);
             Console.WriteLine("byte min val: " + bmin + " byte max val: " + bmax);
+
+            int i = int.MaxValue; 
+            Console.WriteLine(( i + 1));
+
         }
     }
 }
