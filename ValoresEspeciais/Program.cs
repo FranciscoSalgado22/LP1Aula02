@@ -24,6 +24,8 @@ namespace ValoresEspeciais
             double dmin = double.MinValue;
             float fmax = float.MaxValue;
             float fmin = float.MinValue;
+            byte bmax = byte.MaxValue;
+            byte bmin = byte.MinValue;
             Console.WriteLine("short min val: " + nsmin + " short max val: " + nsmax);
             Console.WriteLine("ushort min val: " + nusmin + " ushort max val: " + nusmax);
             Console.WriteLine("int min val: " + nmin + " int max val: " + nmax);
@@ -34,6 +36,7 @@ namespace ValoresEspeciais
             Console.WriteLine("float min val: " + fmin + " float max val: " + fmax);
             Console.WriteLine("infinito float: " + float.PositiveInfinity + " infinito negativo float: " + float.NegativeInfinity);
             Console.WriteLine("infinito double: " + double.PositiveInfinity + " infinito negativo double: " + double.NegativeInfinity);
+            Console.WriteLine("byte min val: " + bmin + " byte max val: " + bmax);
         }
     }
 }
