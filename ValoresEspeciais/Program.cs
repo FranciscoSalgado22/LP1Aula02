@@ -30,7 +30,13 @@ namespace ValoresEspeciais
             Console.WriteLine("byte min val: " + bmin + " byte max val: " + bmax);
 
             int i = int.MaxValue; 
-            Console.WriteLine(( i + 1));
+            Console.WriteLine((i + 1));
+            
+            float f = float.MaxValue; 
+            Console.WriteLine((f + 1));
+
+            double d = double.MaxValue; 
+            Console.WriteLine((d + 1));
 
         }
     }
